@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centros y Laboratorios - UPSLP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #666;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h3 {
+            font-size: 1.8em;
+            color: #004080;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .sections {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .section {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .section img {
+            width: 90%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .section h4 {
+            color: #004080;
+            margin: 10px 0;
+        }
+        .contact {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #004080;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function cargaPractica(url) {
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Centros y Laboratorios de la UPSLP</h1>
+        </div>
+        
+        <div class="content">
+            <div class="sections">
+                <div class="section" id="cnt">
+                    <img src="CYL/Collage-CNT-web.jpg" alt="Imagen de CNT">
+                    <h4>CNT – Centro de Nuevas Tecnologías</h4>
+                    <p>En el Centro de Nuevas Tecnologías, se encuentran ubicados los laboratorios de especialidad para […]</p>
+                    <a href="#" onclick="cargaPractica('CYL/centros y laboratorios cnt.html'); return false;">leer más</a>
+                </div>
+
+                <div class="section" id="cma">
+                    <img src="CYL/Collage-CMA-web.jpg" alt="Imagen de CMA">
+                    <h4>CMA – Centro de Manufactura Avanzada</h4>
+                    <p>CMA – Centro de Manufactura Avanzada es un edificio diseñado y habilitado especialmente para disponer […]</p>
+                    <a href="#" onclick="cargaPractica('CYL/centros y laboratorios cma.html'); return false;">leer más</a>
+                </div>
+
+                <div class="section" id="cimma">
+                    <img src="CYL/Collage-CIMMA-web.jpg" alt="Imagen de CIMMA">
+                    <h4>CIMMA – Centro Integral De Mercadotecnia y Medios Audiovisuales</h4>
+                    <p>El Centro Integral de Mercadotecnia y Medios Audiovisuales (CIMMA), es un espacio creativo diseñado […]</p>
+                    <a href="#" onclick="cargaPractica('CYL/centros y laboratorios cimma.html'); return false;">leer más</a>
+                </div>
+
+                <div class="section" id="isti">
+                    <img src="CYL/Collage-Equipamiento-ISTI.jpg" alt="Imagen de ISTI">
+                    <h4>LABORATORIOS ISTI</h4>
+                    <p>Coordinación de Ingeniería en Sistemas y Tecnologías Industriales (ISTI) isti@upslp.edu.mx</p>
+                    <a href="#" onclick="cargaPractica('CYL/centros y laboratorios isti.html'); return false;">leer más</a>
+                </div>
+
+                <div class="section" id="ciencias">
+                    <img src="CYL/Collage-Laboratorio-de-ciencias-web.jpg" alt="Imagen de Ciencias">
+                    <h4>Laboratorio de Ciencias</h4>
+                    <p>El objetivo central del laboratorio de Ciencias es: Establecer un espacio apropiado en donde […]</p>
+                    <a href="#" onclick="cargaPractica('CYL/laboratoriociencias.html'); return false;">leer más</a>
+                </div>
+
+                <div class="section" id="cadi">
+                    <img src="CYL\College-CADI-web.jpg" alt="Imagen de CADI">
+                    <h4>CADI</h4>
+                    <p>La Universidad Politécnica de San Luis Potosí establece como requisito de titulación la certificación […]</p>
+                    <a href="#" onclick="cargaPractica('CYL/cadi.html'); return false;">leer más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
